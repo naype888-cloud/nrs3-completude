@@ -1,3 +1,5 @@
+<div lang="fr">
+
 <div align="center">
 
 # La chaîne close — Robertson · Fiedler · Niven · Szegő
@@ -26,10 +28,10 @@
 > <picture><source media="(prefers-color-scheme: dark)" srcset="assets/oscuro/plaque_bande.png"><img src="assets/claro/plaque_bande.png" alt="La bande : C_M(d) entre C_M(4) et π²/3 − 3 pour d ≥ 4" width="860"></picture>
 > </div>
 >
-> 1. **L'incertitude est un plancher absolu** : `C_M(4) = (94 − 42√5)/5 > 0`, et `C_M(d) ≥ C_M(4)` pour tout `d ≥ 4`.
-> 2. **Aucune divergence** : `C_M(d) < π²/3 − 3` pour tout `d ≥ 4`.
-> 3. **La chaîne se ferme sur π** : `C_M(d) → π²/3 − 3 > 0`, car `π > 3`.
-> 4. **Le système formel de la chaîne est décidable, complet et cohérent** : pour chaque énoncé `φ`, `φ` ou `¬φ` est démontré, jamais les deux, et un algorithme sur les entiers dit lequel (`closedSystem`).
+> **1 · L'incertitude est un plancher absolu** : `C_M(4) = (94 − 42√5)/5 > 0`, et `C_M(d) ≥ C_M(4)` pour tout `d ≥ 4`.
+> **2 · Aucune divergence** : `C_M(d) < π²/3 − 3` pour tout `d ≥ 4`.
+> **3 · La chaîne se ferme sur π** : `C_M(d) → π²/3 − 3 > 0`, car `π > 3`.
+> **4 · Le système formel de la chaîne est décidable, complet et cohérent** : pour chaque énoncé `φ`, `φ` ou `¬φ` est démontré, jamais les deux, et un algorithme sur les entiers dit lequel (`closedSystem`).
 >
 > C'est un cas isolé : le langage de la chaîne parle de `C_M(d)`, pas de l'arithmétique.
 > L'incomplétude de Gödel porte sur les systèmes qui contiennent l'arithmétique ; celui-ci ne la
@@ -184,6 +186,38 @@ chaîne Robertson → Fiedler → Niven du dépôt de base (`D0`–`D7`).
 
 ---
 
+## 🏛️ La mosaïque
+
+| Dépôt | Objet |
+|:---|:---|
+| [`00 · bacqm-substrate`](https://github.com/naype888-cloud/bacqm-systems) | Substrat matériel & moteur du noyau Linux : modules de mémoire dynamiques en temps réel |
+| [`01 · nava-robertson-schrodinger`](https://github.com/naype888-cloud/nava-robertson-schrodinger) | Le canon : l'incertitude élémentaire dimensionnelle sur le cube ouvert, ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ |
+| [`02 · Proper-Time-General-Relativity`](https://github.com/naype888-cloud/Proper-Time-General-Relativity) | Le temps compte les pas : τ = 1/(φ|t|) à quatre sites ; masse effective, équivalence, gravitation |
+| [`03 · nrs3-mandelstam-tamm-cramer-rao`](https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao) | Mandelstam–Tamm et Cramér–Rao : aucun état n'est orthogonal à lui-même avant πħ/(2ΔE) |
+| [`04 · YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method) | Yang–Mills sur réseau : loi d'aire uniforme, matrice de transfert, défaut de fibre (0 sorry) |
+| [`05 · nrs3-tightbinding`](https://github.com/naype888-cloud/nrs3-tightbinding) | La chaîne de Physlib, le cube ouvert et la table périodique (H–Og), un cube 3D par élément |
+| [`06 · nrs3-cristales`](https://github.com/naype888-cloud/nrs3-cristales) | Cristaux : la symétrie donne la forme de Σ et Ω, le spectre donne la taille |
+| [**07 · nrs3-completude**](https://github.com/naype888-cloud/nrs3-completude) | Complétude constructive et limites spectrales par Robertson–Fiedler–Niven–Szegő *(ce dépôt)* |
+| [`08 · nrs3-golab`](https://github.com/naype888-cloud/nrs3-golab) | Gołąb, les deux extrêmes : π = 3 (hexagone), 4 (carré) ; produit scalaire → π exact ; stabilité en d = 3 |
+| [`09 · nrs3-de-sitter`](https://github.com/naype888-cloud/nrs3-de-sitter) | Cosmologie de Sitter : rayon d'horizon L_dS, constante cosmologique positive et courbure |
+| [`10 · nrs3-bekenstein`](https://github.com/naype888-cloud/nrs3-bekenstein) | Thermodynamique des trous noirs : frontière à bits, entropie de Bekenstein–Hawking saturée |
+| [`11 · nrs3-landauer-carnot`](https://github.com/naype888-cloud/nrs3-landauer-carnot) | Limite de Landauer et cycle de Carnot : coût d'effacement d'un bit et dissipation minimale |
+| [`12 · nrs3-penrose`](https://github.com/naype888-cloud/nrs3-penrose) | Effondrement gravitationnel de Diósi–Penrose : temps de décohérence par auto-énergie |
+| [`13 · nrs3-rovelli-lqg`](https://github.com/naype888-cloud/nrs3-rovelli-lqg) | Gravité quantique à boucles : spectre d'aire discrète, opérateur de surface et saturation de spin |
+| [`14 · nrs3-uncertainty-cone`](https://github.com/naype888-cloud/nrs3-uncertainty-cone) | Cône de lumière futur et cercle de Minkowski : structure causale sous revêtement SL(2, ℂ) |
+| [`15 · lean4-commits`](https://github.com/naype888-cloud/lean4-commits) | 53 PRs fusionnées dans leanprover-community/physlib : catalogue de preuves formelles, 0 sorry, ZFC |
+
+---
+
+## Chronologie
+
+| Année | Événement | Dépôt associé |
+|---|---|---|
+| 1915–20 | Szegő : théorèmes limites pour matrices de Toeplitz | **ce dépôt** · [dépôt de base](https://github.com/naype888-cloud/nava-robertson-schrodinger) |
+| 1927 | Relation d'incertitude de Heisenberg ; Solvay | |
+| **1929–30** | **Robertson et Schrödinger : l'inégalité d'incertitude** | [dépôt de base](https://github.com/naype888-cloud/nava-robertson-schrodinger) |
+---
+
 ## Compilation et certification du noyau
 
 Lean 4 `v4.35.0`, Mathlib `v4.35.0`. Aucun autre import.
@@ -196,31 +230,6 @@ lake env lean Verification/Axioms.lean
 ```
 
 0 sorry, aucun axiome ad hoc, `autoImplicit = false`.
-
----
-
-## Chronologie
-
-| Année | Événement | Dépôt associé |
-|---|---|---|
-| 1915–20 | Szegő : théorèmes limites pour matrices de Toeplitz | **ce dépôt** · [dépôt de base](https://github.com/naype888-cloud/nava-robertson-schrodinger) |
-| 1927 | Relation d'incertitude de Heisenberg ; Solvay | |
-| **1929–30** | **Robertson et Schrödinger : l'inégalité d'incertitude** | [dépôt de base](https://github.com/naype888-cloud/nava-robertson-schrodinger) |
-
----
-
-## La mosaïque des dépôts RS^N³
-
-- [RS^N et RS^N³ — Le théorème de base](https://github.com/naype888-cloud/nava-robertson-schrodinger)
-- [RS^N³ · Mandelstam–Tamm et Cramér–Rao](https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao)
-- [RS^N³ · Landauer et Carnot](https://github.com/naype888-cloud/nrs3-landauer-carnot)
-- [RS^N³ · de Sitter](https://github.com/naype888-cloud/nrs3-de-sitter)
-- [RS^N³ · Pauli–Dirac](https://github.com/naype888-cloud/nrs3-pauli-dirac)
-- [RS^N³ · Le cône d'incertitude](https://github.com/naype888-cloud/nrs3-uncertainty-cone)
-- [RS^N³ · Poincaré](https://github.com/naype888-cloud/nrs3-poincare)
-- [RS^N³ · Bekenstein — Bits on the Boundary](https://github.com/naype888-cloud/nrs3-bekenstein)
-- **[La chaîne close](https://github.com/naype888-cloud/nrs3-completude)** (ce dépôt)
-
 ---
 
 ## Licence
@@ -234,5 +243,7 @@ NRS Noncommercial License 1.0.0, voir [`LICENSE`](LICENSE).
 ### 📐 *« Dans ce cadre, les mathématiques sont circulaires et ne divergent pas : π entre par θ_d = π/(d+1) et revient comme limite π²/3 − 3. »*
 
 **Eduardo Nava Hernández · José Arturo Nava Hernández** · [naype888-cloud](https://github.com/naype888-cloud)
+
+</div>
 
 </div>
