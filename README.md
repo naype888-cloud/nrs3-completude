@@ -2,7 +2,8 @@
 
 <div align="center">
 
-# La chaîne close — Robertson · Fiedler · Niven · Szegő
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/oscuro/titre_completude.png"><img src="assets/claro/titre_completude.png" alt="La chaîne close — Robertson · Fiedler · Niven · Szegő" width="860"></picture>
+**"La chaîne close — Robertson · Fiedler · Niven · Szegő"**
 ### Dans ce cadre, les mathématiques sont circulaires et ne divergent pas : `π` entre par `θ_d = π/(d+1)` et revient comme limite `π²/3 − 3`
 
 **Eduardo Nava Hernández · José Arturo Nava Hernández**  
